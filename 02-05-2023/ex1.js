@@ -5,12 +5,14 @@ const inversoo = (valor) => {
     return false;
   } else if (valor == false) {
     return true;
-  } else if ((valor = String)) {
+  } else if (valor = String) {
     return `booleano ou números esperados, mas o parâmetro é do tipo string`;
+  } else if (valor == "number") {
+    return -valor;
   }
 };
 
-console.log(inversoo(false));
+console.log(inversoo(8));
 
 function inverso(valor) {
   const tipo = typeof valor;

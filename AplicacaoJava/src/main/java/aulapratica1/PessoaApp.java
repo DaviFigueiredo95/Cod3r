@@ -8,12 +8,11 @@ package aulapratica1;
  *
  * @author davif
  */
-public class Pessoa {
-    int codigo;
-    String nome;
-    
-    public Pessoa(int codigo, String nome) {
-        this.codigo = codigo;
-        this.nome = nome;
+public class PessoaApp {
+    public static void main(String[] args) {
+        
+        Pessoa pessoa1 = new Pessoa(1, "Davi");
+        Pessoa pessoa2 = new Pessoa(2, "Hemelli");
     }
+
 }

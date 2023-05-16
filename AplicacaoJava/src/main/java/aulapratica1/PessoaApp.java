@@ -12,7 +12,12 @@ public class PessoaApp {
     public static void main(String[] args) {
         
         Pessoa pessoa1 = new Pessoa(1, "Davi");
+        
         Pessoa pessoa2 = new Pessoa(2, "Hemelli");
+        
+        System.out.println("o nome do objeto pessoal é " + pessoa1.getNome());
+        
+        
     }
 
 }

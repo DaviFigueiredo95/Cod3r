@@ -1,0 +1,5 @@
+package com.kaspperacademy.helloworld.controllers;
+
+public class UsuarioController {
+
+}

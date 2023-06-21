@@ -1,0 +1,19 @@
+package com.kaspperacademy.helloworld.controllers;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.kaspperacademy.helloworld.models.Usuario;
+
+@RestController
+@RequestMapping("/usuarios")
+public class UsuarioController {
+	
+	@GetMapping("/usuario")
+	public Usuario getUsuarioTest() {
+		Usuario usuario = new Usuario("Eddie Van Halen", "eddie@vanhalen.com");
+		return usuario;
+	}
+	
+}

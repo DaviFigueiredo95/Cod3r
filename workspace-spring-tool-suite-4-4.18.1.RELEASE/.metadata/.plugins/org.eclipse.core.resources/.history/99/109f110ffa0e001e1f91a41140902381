@@ -1,0 +1,5 @@
+package com.kaspperacademy.banco.models;
+
+public class Usuario {
+
+}

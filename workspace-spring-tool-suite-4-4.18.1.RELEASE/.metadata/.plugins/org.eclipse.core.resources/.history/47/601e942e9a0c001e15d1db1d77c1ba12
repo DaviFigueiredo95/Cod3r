@@ -1,0 +1,14 @@
+package com.kaspperacademy.helloworld.controllers;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.kaspperacademy.helloworld.models.Usuario;
+
+@RestController
+public class UsuarioController {
+	
+	public Usuario getUsuarioTeste() {
+		Usuario usuario = new Usuario("Eddie Van Halen", "eddie@vanhalen.com");
+	}
+	
+}

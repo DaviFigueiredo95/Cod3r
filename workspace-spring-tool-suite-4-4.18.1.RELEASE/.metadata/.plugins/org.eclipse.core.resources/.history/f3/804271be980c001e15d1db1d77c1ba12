@@ -1,0 +1,5 @@
+package com.kaspperacademy.helloworld.models;
+
+public class Usuario {
+
+}
